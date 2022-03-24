@@ -1,11 +1,23 @@
 body{
     background-color: azure;
 }
+.coloring{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    margin: 15px;
+
+}
 .header1{
     border: 1px solid brown;
     color: rgb(161, 107, 175);
     background-color: beige;
     text-align: center;
+}
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 h1{
@@ -13,8 +25,8 @@ h1{
     color-adjust: rgb(151, 151, 190);
     color: cadetblue;
 }
-.column p{
-    text-align: center;
+.column ul{
+    text-align:justify;
 }
 #ind1{
     background-color: beige;
