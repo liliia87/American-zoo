@@ -4,10 +4,11 @@ body{
 .coloring{
     background-color: beige;
     color: black;
-    padding: 10px;
+    padding: 15px;
     margin: 15px;
 
 }
+
 .header1{
     border: 1px solid brown;
     color: rgb(161, 107, 175);
@@ -20,6 +21,7 @@ a:hover{
     text-decoration: underline;
 }
 
+
 h1{
     text-align: center;
     color-adjust: rgb(151, 151, 190);
@@ -31,6 +33,7 @@ h1{
 #ind1{
     background-color: beige;
     color: black;
+    text-align: center;
     padding: 10px;
     margin: 15px;
 }
