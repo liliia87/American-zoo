@@ -15,15 +15,20 @@ body{
     background-color: beige;
     text-align: center;
 }
-a:hover{
-    color: red;
+a:visited{
+    color: blue;
     background-color: transparent;
     text-decoration: underline;
 }
-
+a:active{
+    color:rgb(238, 46, 78);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 h1{
     text-align: center;
+
     color-adjust: rgb(151, 151, 190);
     color: cadetblue;
 }
@@ -36,6 +41,9 @@ h1{
     text-align: center;
     padding: 10px;
     margin: 15px;
+}
+.move{
+    text-align: center;
 }
 
 .column {
