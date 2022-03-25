@@ -1,7 +1,7 @@
 body{
     background-color: azure;
 }
-.coloring{
+ol.coloring{
     background-color: beige;
     color: black;
     padding: 15px;
@@ -32,18 +32,37 @@ h1{
     color-adjust: rgb(151, 151, 190);
     color: cadetblue;
 }
-.column ul{
+.column p{
     text-align:justify;
+}
+div.link-center{
+    text-align: center;
+}
+.list-move{
+    float:right;
+    width: 50%;;
+}
+.head-move{
+    float: left;
+    width: 50%;
+
 }
 #ind1{
     background-color: beige;
-    color: black;
+    color: coral;
     text-align: center;
+    font-family: cursive;
+    font-size: revert;
     padding: 10px;
     margin: 15px;
 }
 .move{
     text-align: center;
+}
+p.list-text{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .column {
